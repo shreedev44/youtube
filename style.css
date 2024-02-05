@@ -1,0 +1,340 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: roboto;
+}
+div
+{
+    display: inline-block;
+}
+body
+{
+    background-color: rgb(14, 14, 14);
+}
+
+.top-div
+{
+    margin: 0;
+    background-color: rgb(14, 14, 14);
+    width: 100%;
+    height: 56px;
+    position: fixed;
+}
+.left-tools
+{
+    height: 100%;
+    width: 72px;
+    padding-left: 4px;
+    padding-right: 4px;
+    background-color: rgb(14, 14, 14);
+    position: fixed;
+    top: 50px;
+}
+
+.topics-buttons
+{
+    vertical-align: top;
+    width: 1440px;
+    height: 56px;
+    padding-left: 10px;
+    background-color: rgb(14, 14, 14);
+    position: fixed;
+    top: 50px;
+    left: 80px;
+}
+
+.menu-button
+{
+    background-color: rgb(14, 14, 14);
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    left: 13px;
+    top: 10px;
+    cursor: pointer;
+}
+.menu-button:hover
+{
+    background-color: #222222;
+}
+.menu-button:active
+{
+    background-color: #363636;
+}
+
+.menu-icon
+{
+    color: white;
+    position: relative;
+    top: 3px;
+}
+
+.youtube-link
+{
+    width: 100px;
+    height: 30px;
+}
+
+.youtube-image
+{
+    width: 90px;
+    top: 20px;
+    left: 75px;
+    position: absolute;
+    object-fit: contain;
+    margin: 0;
+    padding: 0;
+}
+
+.search-bar
+{
+    position: absolute;
+    margin-top: 5px;
+    left: 29%;
+    top: 1%;
+    border: solid;
+    border-color: rgb(44, 44, 44);
+    border-width: 0.1px;
+    width: 590px;
+    height: 40px;
+    border-radius: 40px;
+    padding-left: 20px;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: rgb(14, 14, 14);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.search-button
+{
+    height: 41px;
+    width: 70px;
+    position: absolute;
+    margin-top: 5px;
+    left: 64.3%;
+    top: 1%;
+    background-color: rgb(44, 44, 44);
+    border: none;
+    border-width: 0.1px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+
+}
+.search-button-icon
+{
+    font-size: 23px;
+    color: #ffffff;
+}
+
+.mic-button
+{
+    width: 42px;
+    height: 42px;
+    margin-top: 5px;
+    background-color: rgb(44, 44, 44);
+    border: none;
+    border-radius: 21px;
+    position: absolute;
+    left: 70%;
+    top: 1%;
+    cursor: pointer;
+}
+.mic-button:hover
+{
+    background-color: #464646;
+}
+.mic-button:active
+{
+    background-color: #646464;
+}
+.mic-button-icon
+{
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.create-button
+{
+    width: 42px;
+    height: 42px;
+    background-color: rgb(14, 14, 14);
+    border: none;
+    border-radius: 21px;
+    position: absolute;
+    margin-top: 5px;
+    left: 87.7%;
+    top: 1%;
+    cursor: pointer;
+}
+.create-button:hover
+{
+    background-color: #222222;
+}
+.create-button:active
+{
+    background-color: #646464;
+}
+
+.material-symbols-outlined
+{
+    color: white;
+}
+
+.notification-button
+{
+    width: 42px;
+    height: 42px;
+    background-color: rgb(14, 14, 14);
+    border: none;
+    border-radius: 21px;
+    position: absolute;
+    margin-top: 5px;
+    left: 91.2%;
+    top: 1%;
+    cursor: pointer;
+    
+}
+.notification-button:hover
+{
+    background-color: #222222;
+}
+.notification-button:active
+{
+    background-color: #646464;
+}
+.notification-button-icon
+{
+    color: white;
+    font-size: 20px;
+}
+
+.user-button
+{
+    width: 42px;
+    height: 42px;
+    background-color: rgb(14, 14, 14);
+    border: none;
+    border-radius: 21px;
+    position: absolute;
+    margin-top: 5px;
+    left: 94%;
+    top: 1%;
+    cursor: pointer;
+}
+.user-button:hover
+{
+    background-color: #222222;
+}
+.user-button-icon
+{
+    color: white;
+    font-size: 20px;
+}
+
+.menu
+{
+    background-color: rgb(14, 14, 14);
+    width: 64px;
+    height: 74px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.menu:hover
+{
+    background-color: #222222;
+}
+.menu:active
+{
+    background-color: #646464;
+}
+
+.all-button
+{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: #222222;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+.all-button:hover
+{
+    background-color: #363636;
+}
+
+.suggestions
+{
+    position: absolute;
+    padding-left: 12px; 
+    left: 81px; 
+    top: 113px;
+    width: 93%;
+    height: 100%;
+    z-index: -1;
+}
+
+.video-element
+{
+    cursor: pointer;
+    height: 290px;
+}
+.thumbnail
+{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.video-title
+{
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+}
+.video-author
+{
+    color: rgb(170, 170, 170);
+    font-size: 13px;
+    padding-top: 7px;
+}
+.video-stats
+{
+    color: rgb(170, 170, 170);
+    font-size: 13px;
+    padding-top: 3px;
+}
+.video-time
+{
+    color: white;
+    display: inline-block;
+    background-color: #000000bc;
+    bottom: 9px;
+    right: 4px;
+    position: absolute;
+    font-size: 12px;
+    border-radius: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-weight: 500;
+}
+.thumbnail-time
+{
+    position: relative;
+}
